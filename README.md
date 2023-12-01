@@ -7,4 +7,8 @@ Inicialmente estamos interessados em saber qual o tempo de dinâmica do sistema 
 Código: time_evolution.py
 
 ## Espectro de transmissão do EIT
-Vizualizamos a transmissão do sistema pela dessintonia $\Delta_P$ fixando a frequência $\Omega_C=\kappa$ e analisando como o acoplamento ($g_0$) influencia na posição dos estados vestidos. Em especial, os próximos resultados será o cálculo 
+Vizualizamos a transmissão do sistema pela dessintonia $\Delta_P$ fixando a frequência $\Omega_C=\kappa$ e analisando como o acoplamento ($g_0$) influencia na posição dos estados vestidos. Em especial, os próximos resultados utilizarão a construção desse espectro.
+
+Código: 
+
+
