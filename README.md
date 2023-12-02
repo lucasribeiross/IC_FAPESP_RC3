@@ -21,6 +21,6 @@ Código modelo quântico: test.py
 Código modelo semi-clássico: 
 
 ## Estatística do campo
-Alguns dos códigos desenvolvidos para o modelo quântico a fim de analisar a estatística do campo após a interação. O onjetivo era identificar uma mudança na natureza do campo decorrente do crescimento de $N_{\text{at}}$. Foi calculada a função de correlação de segunda ordem ($g^{(2)} (0)$) 
+Alguns dos códigos desenvolvidos para o modelo quântico a fim de analisar a estatística do campo após a interação. O onjetivo era identificar uma mudança na natureza do campo decorrente do crescimento de $N_{\text{at}}$. Foi calculada a função de correlação de segunda ordem e as projeções $\langle P_n \rangle$ do estado número de fótons.
 
-Códigos do modelo quântico: Nat_2correlationfunction.py
+Códigos do modelo quântico: Nat_2correlationfunction.py, Pn_Dp.py
