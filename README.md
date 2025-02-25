@@ -21,6 +21,8 @@ Código modelo quântico: EIT_transmission.py
 
 Código modelo semi-clássico: semiclassical_EIT_spectrumtransmission.mlx
 
+Dados: spectrum_transmission_EIT
+
 ### FWHM do espectro de transmissão
 Calculando para um regime de frequências de $\Omega_C$ o espectro de transmissão do EIT. São obtidos poucos pontos em torno da largura de meia-altura (FWHM), utilizando uma interpolação polinomial (Spline-SciPy), a fim de otimizar o cálculo numérico. O código se encontra generalizado para $N_{\text{at}}$ átomos. A base de Fock $N=6$ foi escolhida truncando as probabilidades do estado de fótons que entram na cavidade segundo a força do campo de bombeio $\varepsilon_0$.
 
@@ -28,7 +30,7 @@ Código modelo quântico: test.py
 
 Código modelo semi-clássico: semiclassical_EIT_FWHM.mlx
 
-Dados: spectrum_transmission_EIT, quantum_FWHM_data e semiclassical_FWHM_data
+Dados: quantum_FWHM_data e semiclassical_FWHM_data
 
 ### Estatística do campo
 Alguns dos códigos desenvolvidos para o modelo quântico a fim de analisar a estatística do campo após a interação. O objetivo é identificar uma mudança na natureza do campo decorrente do crescimento de $N_{\text{at}}$. Foi calculada a função de correlação de segunda ordem e as projeções $\langle P_n \rangle$ do projetor correspondente ao número de fótons.
