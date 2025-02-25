@@ -1,4 +1,4 @@
-# IC_FAPESP_RC3_codes
+# DD_FAPESP_codes&data
 Repositório dos códigos utilizados para a apresentação dos resultados do RC3 - IC FAPESP
 
 ## Evolução temporal do sistema
