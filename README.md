@@ -32,5 +32,19 @@ Alguns dos códigos desenvolvidos para o modelo quântico a fim de analisar a es
 Códigos: Nat_2correlationfunction.py e Pn_Dp.py
 
 
-## Estimativa do número médio de fótons pelo Algoritmo de Estimação de Fase
+## Estimação do número médio de fótons pelo Algoritmo Quântico de Estimação de Fase
+
+### Modelo quântico
+
+A realização de 1 trajetória do sistema para 100 steps do protocolo são feitas através de duas dinâmicas. A primeira dinâmica simula as rotações controladas, já a segunda tem o papel de reproduzir o decaimento do campo no decorrer da aplicação da operação da Transformada de Fourier Quântica inversa e as medições.
+
+Código para o modelo quântico com 1 trajetória: qpe_quantum_ntraj1.py
+Dados: 
+
+### Aproximação semiclássica
+
+Utilizando a aproximação semiclássica para obter a solução da amplitude dependente do tempo do campo, vemos que tal modelo converge para o caso quântico da média de 1000 trajetórias.
+
+Código para o modelo quântico com 1000 trajetórias paralelizado e o modelo semiclássico: qpe_compare_q&c.py
+Dados:
 
