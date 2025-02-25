@@ -12,6 +12,8 @@ Código modelo quântico: time_evolution.py
 
 Código modelo semi-clássico: semiclassical_EIT_timeevolution.mlx
 
+Dados: time_evolution_EIT
+
 ### Espectro de transmissão do EIT
 Vizualizamos a transmissão do sistema pela dessintonia $\Delta_P$ fixando a frequência $\Omega_C=\kappa$ e analisando como o acoplamento ($g_0$) influencia na posição dos estados vestidos. Em especial, os próximos resultados utilizarão a construção desse espectro.
 
@@ -26,10 +28,14 @@ Código modelo quântico: test.py
 
 Código modelo semi-clássico: semiclassical_EIT_FWHM.mlx
 
+Dados: spectrum_transmission_EIT, quantum_FWHM_data e semiclassical_FWHM_data
+
 ### Estatística do campo
 Alguns dos códigos desenvolvidos para o modelo quântico a fim de analisar a estatística do campo após a interação. O objetivo é identificar uma mudança na natureza do campo decorrente do crescimento de $N_{\text{at}}$. Foi calculada a função de correlação de segunda ordem e as projeções $\langle P_n \rangle$ do projetor correspondente ao número de fótons.
 
 Códigos: Nat_2correlationfunction.py e Pn_Dp.py
+
+Dados: quantum_statistics
 
 
 ## Estimação do número médio de fótons pelo Algoritmo Quântico de Estimação de Fase
@@ -40,7 +46,8 @@ A realização de 1 trajetória do sistema para 100 steps do protocolo são feit
 
 Código para o modelo quântico com 1 trajetória: qpe_quantum_ntraj1.py
 
-Dados: 
+Dados: qpe_quantum_ntraj1.csv
+
 
 ### Aproximação semiclássica
 
@@ -48,5 +55,5 @@ Utilizando a aproximação semiclássica para obter a solução da amplitude dep
 
 Código para o modelo quântico com 1000 trajetórias paralelizado e o modelo semiclássico: qpe_compare_q&c.py
 
-Dados:
+Dados: qpe_quantum_ntraj1000.csv e qpe_semiclassical.csv
 
